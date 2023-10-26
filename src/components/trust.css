@@ -1,0 +1,4 @@
+/* Your container or background element */
+.gradient {
+  background: linear-gradient(to bottom, #fff, #ffd45e);
+}

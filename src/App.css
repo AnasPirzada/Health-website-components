@@ -32,7 +32,60 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.text {
+  color: #FAB915;
+}
+
+input {
+  color: var(--placeholder-color);
+  /* Set the input text color */
+}
+
+input::placeholder {
+  color: var(--placeholder-color);
+}
+
+.custom-checkbox {
+  display: inline-block;
+  position: relative;
+  padding-left: 10px;
+  margin-left: 10px;
+  /* margin-top: -20px; */
+  cursor: pointer;
+}
+
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: -8px;
+  left: -10px;
+  height: 20px;
+  width: 20px;
+  background-color:#F0F3F6;
+  border: 2px solid #FAB915;
+  border-radius: 5px;
+}
+
+.custom-checkbox input:checked~.checkmark:after {
+  content: '';
+  position: absolute;
+  display: block;
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #FAB915;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
 }

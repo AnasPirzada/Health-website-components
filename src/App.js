@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Trust from './components/Trusted.js';
+import Requestpage from './pages/Request';
+import Prescriptionpage from './pages/Prescription.js';
+import ReviewPage from './pages/ReviewPage.js';
+import Chart from './pages/MyChart.js';
+import Prescriptionfinal from './pages/Prescriptionfinalpage.js';
+import Colleagues from './pages/ColleaguesPage.js';
+import RecentActivity from './pages/RecentActivityPage.js';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Trust /> */}
+      {/* <Requestpage/> */}
+      {/* <Prescriptionpage /> */}
+      {/* <ReviewPage/> */}
+      {/* <Chart/> */}
+      {/* <Prescriptionfinal/> */}
+      {/* <Colleagues /> */}
+      <RecentActivity />
     </div>
   );
 }
