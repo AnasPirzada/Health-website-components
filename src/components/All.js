@@ -27,10 +27,10 @@ export const All = () => {
             </Col>
             <Col className='mt-4'>
               <div
-                className='p-1 text-center w-100'
+                className='text-center w-100 rounded-3 ms-3'
                 style={{ backgroundColor: '#FDEEEE' }}
               >
-                <p className='fw-bold fs-5' style={{ color: '#EB5757' }}>
+                <p className='fw-bold fs-6' style={{ color: '#EB5757' }}>
                   7/13/23
                 </p>
               </div>
@@ -62,10 +62,10 @@ export const All = () => {
             </Col>
             <Col className='mt-4'>
               <div
-                className='p-1 text-center w-100'
+                className='text-center w-100 ms-3 rounded-3 '
                 style={{ backgroundColor: '#EAF7EB' }}
               >
-                <p className='fw-bold fs-5' style={{ color: '#74C778' }}>
+                <p className='fw-bold fs-6' style={{ color: '#74C778' }}>
                   7/13/23
                 </p>
               </div>
@@ -97,10 +97,10 @@ export const All = () => {
             </Col>
             <Col className='mt-4'>
               <div
-                className='p-1 text-center w-100'
+                className='text-center w-100 ms-3 rounded-3 '
                 style={{ backgroundColor: '#FDEEEE' }}
               >
-                <p className='fw-bold fs-5' style={{ color: '#EB5757' }}>
+                <p className='fw-bold fs-6' style={{ color: '#EB5757' }}>
                   7/13/23
                 </p>
               </div>

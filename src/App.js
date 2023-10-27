@@ -7,6 +7,7 @@ import Chart from './pages/MyChart.js';
 import Prescriptionfinal from './pages/Prescriptionfinalpage.js';
 import Colleagues from './pages/ColleaguesPage.js';
 import RecentActivity from './pages/RecentActivityPage.js';
+import Chat from './pages/ChatPage.js';
 function App() {
   return (
     <div>
@@ -17,7 +18,8 @@ function App() {
       {/* <Chart/> */}
       {/* <Prescriptionfinal/> */}
       {/* <Colleagues /> */}
-      <RecentActivity />
+      {/* <RecentActivity /> */}
+      <Chat />
     </div>
   );
 }
