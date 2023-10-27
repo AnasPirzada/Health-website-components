@@ -89,3 +89,11 @@ input::placeholder {
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
 }
+
+
+
+
+.sent-message{
+ background-color: #FEF3D5;
+ overflow-wrap: break-word;
+}
