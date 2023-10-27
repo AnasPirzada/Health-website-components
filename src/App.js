@@ -8,6 +8,8 @@ import Prescriptionfinal from './pages/Prescriptionfinalpage.js';
 import Colleagues from './pages/ColleaguesPage.js';
 import RecentActivity from './pages/RecentActivityPage.js';
 import Chat from './pages/ChatPage.js';
+import Profile from './pages/ProfilePage.js';
+import ChangePassword from './pages/ChangePassword.js';
 function App() {
   return (
     <div>
@@ -19,7 +21,9 @@ function App() {
       {/* <Prescriptionfinal/> */}
       {/* <Colleagues /> */}
       {/* <RecentActivity /> */}
-      <Chat />
+      {/* <Chat />  */}
+      {/* <Profile /> */}
+      <ChangePassword />
     </div>
   );
 }
